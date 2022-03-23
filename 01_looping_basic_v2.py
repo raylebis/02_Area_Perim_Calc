@@ -1,3 +1,4 @@
+# checks that users enter a number more than zero 
 valid = False
 while not valid:
 
