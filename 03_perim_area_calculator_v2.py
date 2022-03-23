@@ -25,11 +25,24 @@ def num_check(question):
             print(error)
 
 # Main Routine goes here
-width = num_check("Width: ")
-height = num_check("Height: ")
 
-perimeter = 2 * (width + height)
+# Introduction
+print()
+print("**** Area Perimeter Calculator ****")
 
-area = width * height
-print("The area for this quadrilateral is {} square units".format(area))
-print("The perimeter for this quadrilateral is {} square units".format(perimeter))
+keep_going = ""
+while keep_going == "":
+    
+    width = num_check("Width: ")
+    height = num_check("Height: ")
+
+    perimeter = 2 * (width + height)
+
+    area = width * height
+    print("The area for this quadrilateral is {} square units".format(area))
+    print("The perimeter for this quadrilateral is {} square units".format(perimeter))
+    print()
+    keep_going = input("Press <enter> to keep going on any key to quit")
+    
+
+print("Thanks for using my area/perimeter calculator")
