@@ -29,18 +29,20 @@ def num_check(question):
 # Introduction
 print()
 print("**** Area Perimeter Calculator ****")
+print()
 
 keep_going = ""
 while keep_going == "":
     
     width = num_check("Width: ")
     height = num_check("Height: ")
-
+    # Calculates perim (2 x (width + height))
     perimeter = 2 * (width + height)
-
+    # Calculates Area (area x width)
     area = width * height
-    print("The area for this quadrilateral is {} square units".format(area))
-    print("The perimeter for this quadrilateral is {} square units".format(perimeter))
+    # Output area and perim to 2 dp
+    print("The area for this quadrilateral is {:.2f} square units".format(area))
+    print("The perimeter for this quadrilateral is {:.2f} square units".format(perimeter))
     print()
     keep_going = input("Press <enter> to keep going on any key to quit")
     
