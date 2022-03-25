@@ -37,14 +37,14 @@ while keep_going == "":
     width = num_check("Width: ")
     height = num_check("Height: ")
     # Calculates perim (2 x (width + height))
+
     perimeter = 2 * (width + height)
     # Calculates Area (area x width)
+
     area = width * height
     # Output area and perim to 2 dp
-    print("The area for this quadrilateral is {:.2f} square units".format(area))
-    print("The perimeter for this quadrilateral is {:.2f} square units".format(perimeter))
+    print("The area for this quadrilateral is *snorts* {:.2f} square units".format(area))
+    print("The perimeter for this quadrilateral is *snorts* {:.2f} square units".format(perimeter))
     print()
     keep_going = input("Press <enter> to keep going on any key to quit")
-    
-
-print("Thanks for using my area/perimeter calculator")
+    print("Thanks for using my area/perimeter calculator *big snorts*")
