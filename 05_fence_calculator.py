@@ -53,12 +53,12 @@ while keep_going == "":
     # Calulate perimeter (width + height) x 2
     perimeter = (width + height) * 2
     # Calculate the cost of the fencing (perimeter x price / meter)
-    cost_of_fencing = (perimeter * cost_per_m)
+    cost_of_fencing = (perimeter * cost_per_m) 
 
     # Output the perimeter and cost of the fencing
-    print("The perimeter is {} square units.".format(perimeter))
+    print("The perimeter is {:.2f} square units.".format(perimeter))
     print()
-    print("The cost of fencing is ${}.".format(cost_of_fencing))
+    print("The cost of fencing is ${:.2f}.".format(cost_of_fencing))
     
     keep_going = input("Press <enter> to keep going or any key to quit")
      
